@@ -1,9 +1,10 @@
 import React from 'react';
+import errorPic from '../../assets/error-404.png';
 
 const Error = () => {
     return (
-        <div>
-            <p className='text-black'>Error Page</p>
+        <div className='flex justify-center pt-40'>
+            <img src={errorPic} alt="" />
         </div>
     );
 };
