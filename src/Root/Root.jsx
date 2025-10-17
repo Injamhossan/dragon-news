@@ -1,9 +1,10 @@
 import React from 'react';
+import Navbar from '../Navbar/Navbar';
 
 const Root = () => {
     return (
         <div>
-            <p className='text-black'>Injam Hossan mamun</p>
+           <Navbar></Navbar>
         </div>
     );
 };
