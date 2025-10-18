@@ -3,7 +3,7 @@ import React from 'react';
 const Home = () => {
     return (
         <div>
-            <p className='text-accent'>Home section</p>
+            <p className='text-black font-semibold text-[20px]'>Dragon News Home</p>
         </div>
     );
 };

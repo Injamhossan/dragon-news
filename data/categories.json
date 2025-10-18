@@ -1,46 +1,42 @@
 [
   {
-    "id": 0,
-    "name": "All News"
-  },
-  {
     "id": 1,
-    "name": "Breaking News"
+    "name": "Technology",
+    "slug": "technology"
   },
   {
     "id": 2,
-    "name": "Business"
+    "name": "Sports",
+    "slug": "sports"
   },
   {
     "id": 3,
-    "name": "Technology"
+    "name": "Politics",
+    "slug": "politics"
   },
   {
     "id": 4,
-    "name": "Health"
+    "name": "Business",
+    "slug": "business"
   },
   {
     "id": 5,
-    "name": "Sports"
+    "name": "Entertainment",
+    "slug": "entertainment"
   },
   {
     "id": 6,
-    "name": "Entertainment"
+    "name": "Health",
+    "slug": "health"
   },
   {
     "id": 7,
-    "name": "Science"
+    "name": "Science",
+    "slug": "science"
   },
   {
     "id": 8,
-    "name": "Politics"
-  },
-  {
-    "id": 9,
-    "name": "Education"
-  },
-  {
-    "id": 10,
-    "name": "Lifestyle"
+    "name": "World",
+    "slug": "world"
   }
 ]
