@@ -13,7 +13,7 @@ const Catagory = () => {
             <div className='grid grid-cols-1 mt-5'>
                 {
                     catagories.map(catagory => {
-                        const isActive = location.pathname === `/category/${catagory.id}`;
+                        const isActive = location.pathname === `/category/${catagory.id}` || location.pathname === `/home/category/${catagory.id}`;
                         return (
                             <Link 
                                 key={catagory.id} 

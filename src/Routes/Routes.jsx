@@ -6,6 +6,16 @@ import Registration from "../pages/Auth/Registration/Registration";
 import Home from "../pages/Home/Home";
 import Error from "../components/Error/Error";
 import Catagory from "../pages/Home/Catagory";
+import CatagoryNews from "../pages/Home/CatagoryNews";
+
+// Loader function to fetch news data
+const newsLoader = async () => {
+  const response = await fetch("/data/news.json");
+  if (!response.ok) {
+    throw new Response("Failed to load news data", { status: 500 });
+  }
+  return response.json();
+};
 
 export const router = createBrowserRouter([
   {
@@ -17,14 +27,26 @@ export const router = createBrowserRouter([
         Component: Home,
       },
       {
-        path: "/catagory/:id",
-        Component: Catagory,
+        path: "category/:id",
+        Component: CatagoryNews,
+        loader: newsLoader,
       }
     ]
   },
   {
     path: "/home",
-    Component: Home
+    Component: Root,
+    children: [
+      {
+        path: "",
+        Component: Home,
+      },
+      {
+        path: "category/:id",
+        Component: CatagoryNews,
+        loader: newsLoader,
+      }
+    ]
   },
   {
     path: "/auth",
