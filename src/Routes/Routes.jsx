@@ -7,6 +7,7 @@ import Home from "../pages/Home/Home";
 import Error from "../components/Error/Error";
 import Catagory from "../pages/Home/Catagory";
 import CatagoryNews from "../pages/Home/CatagoryNews";
+import AuthLayout from "../pages/Auth/AuthLayout/AuthLayout";
 
 // Loader function to fetch news data
 const newsLoader = async () => {
@@ -50,15 +51,17 @@ export const router = createBrowserRouter([
   },
   {
     path: "/auth",
-    Component: Root,
-  },
-  {
-    path: "/login",
-    Component: Login,
-  },
-  {
-    path: "/register",
-    Component: Registration,
+    Component: AuthLayout,
+    children: [
+      {
+        path:"/auth/login",
+        Component: Login,
+      },
+      {
+        path:"/auth/register",
+        Component: Registration,
+      }
+    ]
   },
   {
     path: "/*",

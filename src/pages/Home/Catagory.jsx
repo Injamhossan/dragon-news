@@ -1,5 +1,5 @@
 import React, { use } from 'react';
-import { Link, useLocation } from 'react-router';
+import { Link, NavLink, useLocation } from 'react-router';
 const catagoryPromise = fetch("/data/categories.json")
 .then(res=>res.json());
 

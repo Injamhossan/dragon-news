@@ -1,22 +1,28 @@
 [
   {
-    "id": "bcdefa0123456789bcdefa01",
-    "category_id": 2,
-    "title": "Bangladesh's Export Earnings Show Strong Growth in Q1 2025",
+    "id": "abcdef0123456789abcdef0123",
+    "category_id": 1,
+    "title": "Programming Hero Announces New Advanced Web Development Bootcamp",
     "rating": {
       "number": 4,
       "badge": "trending"
     },
     "total_view": 6789,
     "author": {
-      "name": "Shirin Akter",
-      "published_date": "2025-04-22T17:00:00.000Z",
-      "img": "https://randomuser.me/api/portraits/women/29.jpg"
+      "name": "Jhankar Mahbub",
+      "published_date": "2025-04-22T18:00:00.000Z",
+      "img": "https://randomuser.me/api/portraits/men/85.jpg"
     },
-    "thumbnail_url": "https://apparelresources.com/wp-content/uploads/2024/11/Bangladeshs-RMG-exports-decline-by-2.8-per-cent-in-FY-25-Q1-.jpg",
-    "image_url": "https://apparelresources.com/wp-content/uploads/2024/11/Bangladeshs-RMG-exports-decline-by-2.8-per-cent-in-FY-25-Q1-.jpg",
-    "details": "Bangladesh's export sector has demonstrated robust performance in the first quarter of 2025, registering significant growth compared to the same period last year. Key sectors such as readymade garments and leather goods have contributed substantially to this positive trend. The increase in export earnings is attributed to rising global demand and the government's supportive policies aimed at enhancing trade competitiveness. Analysts predict continued growth in the coming quarters, provided that global economic conditions remain favorable and domestic industries maintain their momentum. This positive export performance is expected to have a favorable impact on the country's foreign exchange reserves and overall economic stability.",
-    "tags": ["exports", "economy", "business", "growth", "trade"],
+    "thumbnail_url": "https://i.ibb.co.com/JFSsfH87/imgi-149-1760014602203-765521276-compressed-level2-batch6.jpg",
+    "image_url": "https://i.ibb.co.com/JFSsfH87/imgi-149-1760014602203-765521276-compressed-level2-batch6.jpg",
+    "details": "Programming Hero, a popular online coding education platform based in Bangladesh, has announced the launch of its new advanced web development bootcamp. The intensive program is designed for individuals looking to enhance their skills in modern web technologies, including React, Node.js, and advanced JavaScript frameworks. The bootcamp will feature experienced instructors, hands-on projects, and career guidance to prepare graduates for the competitive job market. With a focus on practical application and industry best practices, Programming Hero aims to empower aspiring developers in Bangladesh to excel in their careers. Enrollment for the new bootcamp is now open, with limited seats available to ensure personalized attention for all participants. The course is expected to commence in early May 2025.",
+    "tags": [
+      "programming hero",
+      "web development",
+      "bootcamp",
+      "education",
+      "technology"
+    ],
     "others": {
       "is_today_pick": true,
       "is_trending": true
@@ -252,29 +258,23 @@
     "production": true
   },
   {
-    "id": "abcdef0123456789abcdef0123",
+    "id": "bcdefa0123456789bcdefa01",
     "category_id": 3,
-    "title": "Programming Hero Announces New Advanced Web Development Bootcamp",
+    "title": "Bangladesh's Export Earnings Show Strong Growth in Q1 2025",
     "rating": {
       "number": 4,
       "badge": "trending"
     },
     "total_view": 6789,
     "author": {
-      "name": "Jhankar Mahbub",
-      "published_date": "2025-04-22T18:00:00.000Z",
-      "img": "https://randomuser.me/api/portraits/men/85.jpg"
+      "name": "Shirin Akter",
+      "published_date": "2025-04-22T17:00:00.000Z",
+      "img": "https://randomuser.me/api/portraits/women/29.jpg"
     },
-    "thumbnail_url": "https://i.ibb.co.com/JFSsfH87/imgi-149-1760014602203-765521276-compressed-level2-batch6.jpg",
-    "image_url": "https://i.ibb.co.com/JFSsfH87/imgi-149-1760014602203-765521276-compressed-level2-batch6.jpg",
-    "details": "Programming Hero, a popular online coding education platform based in Bangladesh, has announced the launch of its new advanced web development bootcamp. The intensive program is designed for individuals looking to enhance their skills in modern web technologies, including React, Node.js, and advanced JavaScript frameworks. The bootcamp will feature experienced instructors, hands-on projects, and career guidance to prepare graduates for the competitive job market. With a focus on practical application and industry best practices, Programming Hero aims to empower aspiring developers in Bangladesh to excel in their careers. Enrollment for the new bootcamp is now open, with limited seats available to ensure personalized attention for all participants. The course is expected to commence in early May 2025.",
-    "tags": [
-      "programming hero",
-      "web development",
-      "bootcamp",
-      "education",
-      "technology"
-    ],
+    "thumbnail_url": "https://apparelresources.com/wp-content/uploads/2024/11/Bangladeshs-RMG-exports-decline-by-2.8-per-cent-in-FY-25-Q1-.jpg",
+    "image_url": "https://apparelresources.com/wp-content/uploads/2024/11/Bangladeshs-RMG-exports-decline-by-2.8-per-cent-in-FY-25-Q1-.jpg",
+    "details": "Bangladesh's export sector has demonstrated robust performance in the first quarter of 2025, registering significant growth compared to the same period last year. Key sectors such as readymade garments and leather goods have contributed substantially to this positive trend. The increase in export earnings is attributed to rising global demand and the government's supportive policies aimed at enhancing trade competitiveness. Analysts predict continued growth in the coming quarters, provided that global economic conditions remain favorable and domestic industries maintain their momentum. This positive export performance is expected to have a favorable impact on the country's foreign exchange reserves and overall economic stability.",
+    "tags": ["exports", "economy", "business", "growth", "trade"],
     "others": {
       "is_today_pick": true,
       "is_trending": true

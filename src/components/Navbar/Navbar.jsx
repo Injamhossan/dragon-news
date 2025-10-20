@@ -19,7 +19,7 @@ const Navbar = () => {
 
         <div className='flex gap-5'>
             <img src={userLogo} alt="" />
-            <button className='btn btn-primary px-[30px]'>Log in</button>
+            <Link to= "/auth/login" className='btn btn-primary px-[30px]'>Log in</Link>
         </div>
        </div>
 
